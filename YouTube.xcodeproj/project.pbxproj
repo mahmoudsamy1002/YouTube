@@ -13,6 +13,10 @@
 		CE3E691E2512790200BFD89B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E691C2512790200BFD89B /* Main.storyboard */; };
 		CE3E69202512790B00BFD89B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE3E691F2512790B00BFD89B /* Assets.xcassets */; };
 		CE3E69232512790B00BFD89B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE3E69212512790B00BFD89B /* LaunchScreen.storyboard */; };
+		CE3E692B25128BB700BFD89B /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E692A25128BB700BFD89B /* Constants.swift */; };
+		CE3E692D25128EC900BFD89B /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E692C25128EC900BFD89B /* Video.swift */; };
+		CE3E692F25128F7500BFD89B /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E692E25128F7500BFD89B /* Model.swift */; };
+		CE3E69312513682F00BFD89B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE3E69302513682F00BFD89B /* Response.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		CE3E691F2512790B00BFD89B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE3E69222512790B00BFD89B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE3E69242512790B00BFD89B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE3E692A25128BB700BFD89B /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		CE3E692C25128EC900BFD89B /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		CE3E692E25128F7500BFD89B /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		CE3E69302513682F00BFD89B /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,10 @@
 				CE3E691F2512790B00BFD89B /* Assets.xcassets */,
 				CE3E69212512790B00BFD89B /* LaunchScreen.storyboard */,
 				CE3E69242512790B00BFD89B /* Info.plist */,
+				CE3E692A25128BB700BFD89B /* Constants.swift */,
+				CE3E692C25128EC900BFD89B /* Video.swift */,
+				CE3E692E25128F7500BFD89B /* Model.swift */,
+				CE3E69302513682F00BFD89B /* Response.swift */,
 			);
 			path = YouTube;
 			sourceTree = "<group>";
@@ -141,6 +153,10 @@
 				CE3E691B2512790200BFD89B /* ViewController.swift in Sources */,
 				CE3E69172512790200BFD89B /* AppDelegate.swift in Sources */,
 				CE3E69192512790200BFD89B /* SceneDelegate.swift in Sources */,
+				CE3E692F25128F7500BFD89B /* Model.swift in Sources */,
+				CE3E692B25128BB700BFD89B /* Constants.swift in Sources */,
+				CE3E692D25128EC900BFD89B /* Video.swift in Sources */,
+				CE3E69312513682F00BFD89B /* Response.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
